@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/my_drawer_layout" android:background="#fbf6f6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="vertical" android:background="#168538" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="12dp" app:cardElevation="8dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="213dp">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="90dp">
+                            <ImageView android:id="@+id/logo_image" android:layout_width="100dp" android:layout_height="77dp" android:src="@drawable/registrationpklogo" android:scaleType="centerCrop" android:layout_marginEnd="16dp"/>
+                            <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="#333333" android:id="@+id/text_registration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Registrations.pk" android:layout_marginEnd="16dp"/>
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginVertical="10dp"/>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                            <ImageView android:id="@+id/imgwhatsapp" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/wa_icon" android:layout_marginEnd="8dp"/>
+                            <ImageView android:id="@+id/imgwebsite" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/web_icon" android:layout_marginEnd="8dp"/>
+                            <ImageView android:id="@+id/imgfacebook" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/fb_icon" android:layout_marginEnd="8dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <LinearLayout android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="vertical" android:background="#fff" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="Apply for Registration" android:layout_marginVertical="12dp"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150dp" android:weightSum="2">
+                        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/schoolRegistration" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/school_white"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SCHOOL"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REGISTRATION"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView android:id="@+id/collegeregistration" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/college_white"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="COLLEGE"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REGISTRATION"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="Apply for Affiliation" android:layout_marginVertical="12dp"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="8dp" android:weightSum="2">
+                        <androidx.cardview.widget.CardView android:id="@+id/fedralBoard" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/fibselogologo"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FEBRAL BOARD"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView android:id="@+id/rawalpindiboard" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/biserwplogo"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BISE RWP"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="14dp" android:layout_marginRight="10dp" android:layout_marginBottom="14dp" android:text="Promotions" android:layout_marginVertical="14dp"/>
+                    <androidx.viewpager.widget.ViewPager android:id="@+id/my_pager" android:layout_width="match_parent" android:layout_height="180dp" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="8dp"/>
+                    <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="Apply for Certificates" android:layout_marginVertical="14dp"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="8dp" android:weightSum="2">
+                        <androidx.cardview.widget.CardView android:id="@+id/buildigFitness" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/buldingfitnesscertificate"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUILDING FITNESS"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView android:id="@+id/hygienic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/safe"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HYGIENIC"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="NGO Registration" android:layout_marginVertical="12dp"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="8dp" android:weightSum="2">
+                        <androidx.cardview.widget.CardView android:id="@+id/ngoRegistration" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/ngo"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NGO REGISTRATION"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView android:id="@+id/companyRegistration" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/companyicon"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="COMPANY"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REGISTRATION"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <TextView android:textSize="24dp" android:textStyle="bold" android:textColor="#151515" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="CHECK LISTS" android:layout_marginVertical="12dp"/>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="8dp" android:weightSum="2">
+                        <androidx.cardview.widget.CardView android:id="@+id/checkListPeira" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/peira"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PEIRA"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView android:id="@+id/checkListPeipris" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="6dp" android:layout_weight="1" android:outlineAmbientShadowColor="#476546" app:cardBackgroundColor="@color/primary" app:cardCornerRadius="6dp" app:cardElevation="6dp">
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="13dp">
+                                <ImageView android:layout_gravity="center" android:layout_width="120dp" android:layout_height="80dp" android:src="@drawable/pepris"/>
+                                <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PEPRIS"/>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

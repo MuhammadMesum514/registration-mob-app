@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="24dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="CHECK LIST OF PEIRA"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Society Registration Certificate under Act XX1-1860."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy of constitution of Governing/ Managing body."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="List of Member of Governing/ Managing body."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Map of School/ College Building."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="School Building Fitness/Soundness Certificate"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copies of attested testimonials of teachers/ head of institution, includeing librarian, PTI/ DPE."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bank security for having funds equal to sir months pay of institution."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Detail of income Tax deduction at source."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="List of students chairs, library chairs, laboratory stools and sports gadgets."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="List of subject wise science equipment along with its quantity against each."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="11. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy of servise rule of teachers and non-teaching staff."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deed of ownership of the school building."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="13. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy of budger sanctioned for the school."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fixed deposit recipt."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="15. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="General time table."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Teachers time table."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="17. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Propectus."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Certificate to the effect that the management will :"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="i.   "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Extend full cooperation for conducting educational programs/ activities/ workshops for teachers capacity building and students learning."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="ii.  "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ensure proper maintenance and regular audit of accounts by qualified auditors."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="iii. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ensure that only Principal/ Headmaster/ Headmistress will cioduct correspondence with PEIRA."/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="10dp">
+                <TextView android:textSize="14dp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="iv. "/>
+                <TextView android:textSize="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Arrange clean drinking water facility for students and teachers."/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
